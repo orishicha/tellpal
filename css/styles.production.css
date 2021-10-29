@@ -1,0 +1,209 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 6 versions
+*/
+
+/*
+Colors used
+
+Background Color: #edf6f9;
+Input + Textarea: #e5e5e5;
+Text Color: #006d77;
+Primary Color: #52b788;
+Link + Button Color: #2d6a4f;
+Link Visited: #1b4332;
+Link Active: #40916c;
+Header Color: #006d77;
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 8px;
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 150%;
+  background-color: #edf6f9;
+  color: #006d77;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #006d77;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #006d77;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #006d77;
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #006d77;
+  text-align: center;
+}
+
+a {
+  color: #2d6a4f;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+a:visited {
+  color: #1b4332;
+}
+
+a:hover {
+  color: #2d6a4f;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+a:focus {
+  color: #2d6a4f;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button {
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #52b788;
+  color: #e5e5e5;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.button {
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #52b788;
+  color: #e5e5e5;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 3rem;
+  margin: fill;
+}
+
+.logo {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 20rem;
+  flex: 0 1 20rem;
+}
+
+.welcome {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+input {
+  background-color: #e5e5e5;
+  opacity: 0.75;
+}
+
+textarea {
+  background-color: #e5e5e5;
+  opacity: 0.75;
+}
+
+.message {
+  padding: 0;
+  margin: 0;
+  opacity: 70%;
+  font-size: 1.4rem;
+}
+
+.faq {
+  text-align: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

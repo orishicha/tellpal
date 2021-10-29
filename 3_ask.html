@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TellPal
+    </title>
+    <link rel="shortcut icon" href="./img/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.production.css">
+</head>
+
+<body>
+<!-- Header including the logo and the main navigation -->
+<header class="page-header">
+    <a href="1_welcome.html">
+        <img class="logo" src="./img/logo.png" alt="Logo of TellPal" class="page-header__item">
+    </a>
+    <div class="welcome">
+        <h1>Welcome to TellPal —</h1>
+        <h2>your daily helper for lifetime decisions</h2>
+    </div>
+</header>
+
+<main>
+    <h3>It's guidance time!
+        <form id="question-form">
+            <label for="message">Ask something here:</label>
+            <p class="message">Your message must contain 20 to 240 characters.</p>
+            <textarea id="message" name="message" minlength="20" maxlength="240" required></textarea><br>
+            <label for="message">Do you want to upload photos?</label>
+            <p class="message">Your photo must be in png or jpeg format.</p>
+            <input type="file" id="photo" name="photo" accept="image/png, image/jpeg"></textarea><br>
+            <div>
+                <input type="radio" id="yes" name="name" value="yes"
+                       checked>
+                <label for="yes">Yes!</label>
+            </div>
+            <div>
+                <input type="radio" id="no" name="name" value="no">
+                <label for="no">No!</label>
+            </div>
+        </form>
+        <button onclick="alert('Not ready yet!')">Tell me!</button>
+
+    <h3>Your pals voted:</h3>
+        <!-- Add chart here -->
+        <form id="result-form">
+            <div>
+                <input type="radio" id="yes" name="name" value="yes"
+                       checked>
+                <label for="yes">Yes!</label>
+            </div>
+            <div>
+                <input type="radio" id="no" name="name" value="no">
+                <label for="no">No!</label>
+            </div>
+        </form>
+
+    <div class="grid">
+        <div class="grid_item">
+            <a href="#" class="button" download>Save result</a>
+        </div>
+        <div class="grid_item">
+            <a href="#" class="button" download>Share result</a>
+        </div>
+        <div class="grid_item">
+            <a href="#" class="button">Ask more</a>
+        </div>
+        <div class="grid_item">
+            <a href="#" class="button">Go help others</a>
+        </div>
+    </div>
+</main>
+
+<!-- Footer with link to FAQ -->
+<footer class="faq">
+    <a href="#">FAQ</a>
+</footer>
+
+</body>
+</html>

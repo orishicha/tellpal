@@ -1,2 +1,2 @@
 # TellPal
- This is a prototype of my app for sharing guidances
+ This is a prototype of my app for sharing guidance
